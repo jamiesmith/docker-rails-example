@@ -1,0 +1,10 @@
+service_name: 'my-service'
+
+# Use if APM Server requires a secret token
+# secret_token: ''
+
+# Set the custom APM Server URL (default: http://localhost:8200)
+server_url: 'http://<your-host-or-ip>:8200'
+
+# Set the service environment
+environment: 'production'
